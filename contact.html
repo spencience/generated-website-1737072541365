@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Doja Planet</title>
+    <meta name="description" content="Get in touch with the Doja Planet team. We're here to help with all your Doja Cat fan community needs!">
+    <meta name="keywords" content="Doja Cat, contact, fan support, merchandise inquiries, press contact">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes catFloat {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .float-animation {
+            animation: catFloat 3s infinite ease-in-out;
+        }
+    </style>
+</head>
+<body class="bg-pink-50 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6">
+            <nav class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-3xl font-bold mb-4 md:mb-0 float-animation">
+                    <a href="/generated-website-1737072541365/" class="flex items-center gap-2">
+                        <span class="text-4xl">🐱</span>
+                        Doja Planet
+                    </a>
+                </div>
+                <ul class="flex flex-wrap gap-6 text-lg">
+                    <li><a href="/generated-website-1737072541365/music.html" class="hover:text-pink-200 transition">Music</a></li>
+                    <li><a href="/generated-website-1737072541365/news.html" class="hover:text-pink-200 transition">News</a></li>
+                    <li><a href="/generated-website-1737072541365/gallery.html" class="hover:text-pink-200 transition">Gallery</a></li>
+                    <li><a href="/generated-website-1737072541365/tour.html" class="hover:text-pink-200 transition">Tour</a></li>
+                    <li><a href="/generated-website-1737072541365/shop.html" class="hover:text-pink-200 transition">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-gray-800 mb-8">Contact Us</h1>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-2xl font-bold text-pink-500 mb-4">Get in Touch</h2>
+                    <form action="/generated-website-1737072541365/contact/submit" method="GET" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" name="name" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                        </div>
+                        <div>
+                            <label for="subject" class="block text-gray-700 mb-2">Subject</label>
+                            <select id="subject" name="subject" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500">
+                                <option value="general">General Inquiry</option>
+                                <option value="merchandise">Merchandise Support</option>
+                                <option value="press">Press Inquiry</option>
+                                <option value="fanclub">Fan Club Support</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-md transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="space-y-6">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h2 class="text-2xl font-bold text-pink-500 mb-4">Quick Support</h2>
+                        <ul class="space-y-4">
+                            <li>
+                                <h3 class="font-bold text-gray-700">Fan Club Support</h3>
+                                <p class="text-gray-600">Email: fanclub@dojaplanet.com</p>
+                            </li>
+                            <li>
+                                <h3 class="font-bold text-gray-700">Merchandise Support</h3>
+                                <p class="text-gray-600">Email: shop@dojaplanet.com</p>
+                            </li>
+                            <li>
+                                <h3 class="font-bold text-gray-700">Press Inquiries</h3>
+                                <p class="text-gray-600">Email: press@dojaplanet.com</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h2 class="text-2xl font-bold text-pink-500 mb-4">FAQ</h2>
+                        <ul class="space-y-4">
+                            <li>
+                                <a href="/generated-website-1737072541365/faq#shipping.html" class="text-pink-500 hover:text-pink-600">Shipping Information</a>
+                            </li>
+                            <li>
+                                <a href="/generated-website-1737072541365/faq#returns.html" class="text-pink-500 hover:text-pink-600">Returns Policy</a>
+                            </li>
+                            <li>
+                                <a href="/generated-website-1737072541365/faq#membership.html" class="text-pink-500 hover:text-pink-600">Fan Club Membership</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-4 py-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Connect</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1737072541365/social/twitter.html" class="hover:text-pink-400">Twitter</a></li>
+                        <li><a href="/generated-website-1737072541365/social/instagram.html" class="hover:text-pink-400">Instagram</a></li>
+                        <li><a href="/generated-website-1737072541365/social/tiktok.html" class="hover:text-pink-400">TikTok</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="/generated-website-1737072541365/about.html" class="hover:text-pink-400">About</a></li>
+                        <li><a href="/generated-website-1737072541365/contact.html" class="hover:text-pink-400">Contact</a></li>
+                        <li><a href="/generated-website-1737072541365/fanclub.html" class="hover:text-pink-400">Fan Club</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <form action="/generated-website-1737072541365/subscribe" method="GET" class="space-y-4">
+                        <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded text-gray-900">
+                        <button type="submit" class="bg-pink-500 hover:bg-pink-600 px-6 py-2 rounded transition">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p>&copy; 2024 Doja Planet. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
